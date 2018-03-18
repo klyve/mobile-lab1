@@ -22,11 +22,8 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("A1");
 
-        // Adds event listener on spinner
         addEventListenerToSpinner();
         addEventListenerToButton();
-        // Adds event listener on button
-        //addListenerOnButton();
     }
 
 
